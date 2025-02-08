@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start; /* Aligns all rows to the start */
+    gap: 5px;
+    width: 100%; /* Ensures full row width */
+}
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.box-set {
+    background-color: green;
+}
